@@ -9,7 +9,6 @@
 #[How do I generate the first n prime numbers](http://stackoverflow.com/questions/11673968/how-do-i-generate-the-first-n-prime-numbers)
 
   def prime_division num
-    a,b = 0
     result = []
     temp = Math.sqrt(num).to_i
 
@@ -21,7 +20,7 @@
     end
     result << num unless num == 1
     result
-    puts "prime = #{result.max}"
+    puts "result = #{result.max}"
   end
 
 prime_division(600851475143)
