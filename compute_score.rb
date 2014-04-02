@@ -8,4 +8,7 @@ def compute_score
 end
 
 # http://blog.chh.tw/posts/hacker-news-de-tui-wen-xi-tong-yan-suan-fa-yong-ruby-shi-zuo/
-# reddit的算法
+# Hacker News 算法
+
+# Delicious和Hacker News 算法 http://www.ruanyifeng.com/blog/2012/02/ranking_algorithm_hacker_news.html
+# Reddit算法 http://www.ruanyifeng.com/blog/2012/03/ranking_algorithm_reddit.html
